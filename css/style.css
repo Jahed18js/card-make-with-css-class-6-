@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Card_1{
+    font-family: arial;
+    border:solid #e9e3e37a;
+    display: inline-block;
+    height: 400px;
+    width: 200px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+
+}
+.nut{
+    width: 100%;
+
+}
+
+.data{
+    color: rgb(55, 55, 228);
+    margin: 12px 10px;
+    font-size: 14px;
+}
+
+.price{
+    color: rgb(248, 66, 20);
+    font-size: 18px;
+    margin: 3px 10px;
+   
+}
+.discount{
+    font-size: 11px;
+    color: #8888;
+    margin: 6px 10px;
+}
+.previous_price{
+    text-decoration: line-through;
+
+}
+.button{
+    display: block;
+    border: 1px solid yellowgreen;
+    padding: 8px;
+    color: brown;
+    text-decoration: none;
+    text-align: center;
+    width: 70%;
+    margin-left: 18px;
+    margin-top: 12px;
+    transition: 0.35s;
+    
+}
+.Card_1 a:hover{
+    background-color: orange;
+    color:white
+
+}
+
+.rating{
+    color:orange
+
+}
+.bg{
+    width: 250px;
+    height: 300px;
+    color:white;
+   background-image: url(../image/nt1.jpg);
+   background-color: rgba(0, 0, 0, 0.5);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-blend-mode: multiply;
+    display: inline-block;
+}
+.bg h2{
+    margin-left: 24px;
+}
+.bg p{
+    font-size: 17px;
+    line-height: 25.5px;
+}
+
+
+
+
+.bg2{
+    margin: 10px 10px;
+    height: 300px;
+    width: 250px;
+
+    display: inline-block;
+
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.bg2 p{
+    margin-left: 15px;
+}
